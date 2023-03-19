@@ -33,7 +33,6 @@ const Home = (props) => {
           <div class="line">SHERLOCK</div>
           <div class="line">SHERLOCK</div>
         </div>
-          <h1 className="home-text01">The Vicious Seven</h1>
         </div>
       </section>
       <div className="home-banner">
@@ -46,11 +45,8 @@ const Home = (props) => {
         <h1 className="home-text03">PROLOGUE</h1>
         <span className="home-text04">
           <span>
-            You play as the newest member of the team , The Vicious 7. You are
-            assigned to gather the intel behind a former member , Joseph Kurian
-            and to move forward with the current operation to arrest the
-            notorious drug trafficking channel rumoured to be actively working
-            in the campus.
+            You play as the newest member of the team, The Vicious 7. You are assigned to gather the intel behind a former member, Joseph Kurian
+            and to move forward with the current operation to arrest the notorious drug trafficking channel rumoured to be actively working in the campus.
           </span>
           <br className="home-text06"></br>
           <br></br>

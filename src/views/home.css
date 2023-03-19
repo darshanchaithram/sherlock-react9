@@ -977,4 +977,8 @@ button:hover #clip {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
+  .glitch {
+    font-size: 4em;
+    align-self: center;
+  }
 }

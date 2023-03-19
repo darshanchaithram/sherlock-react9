@@ -15,13 +15,12 @@ const Vicious7 = (props) => {
       </Helmet>
       <div className="vicious7-hero">
         <h1 className="vicious7-text">THE VICIOUS 7</h1>
-        <button className="vicious7-button button">Get Started</button>
       </div>
       <div className="vicious7-features">
         <div className="vicious7-container1">
           <FeatureCard1
             rootClassName="rootClassName"
-            image_src="/playground_assets/C1.jpg"
+            image_src="/playground_assets/c1.jpg"
           ></FeatureCard1>
           <FeatureCard1
             rootClassName="rootClassName"
@@ -29,19 +28,19 @@ const Vicious7 = (props) => {
           ></FeatureCard1>
           <FeatureCard1
             rootClassName="rootClassName"
-            image_src="/playground_assets/C3.jpg"
+            image_src="/playground_assets/c3.jpg"
           ></FeatureCard1>
           <FeatureCard1
             rootClassName="rootClassName"
-            image_src="/playground_assets/C4.jpg"
+            image_src="/playground_assets/c4.jpg"
           ></FeatureCard1>
           <FeatureCard1
             rootClassName="rootClassName"
-            image_src="/playground_assets/C5.jpg"
+            image_src="/playground_assets/c5.jpg"
           ></FeatureCard1>
           <FeatureCard1
             rootClassName="rootClassName"
-            image_src="/playground_assets/C6.jpg"
+            image_src="/playground_assets/c6.jpg"
           ></FeatureCard1>
           
           <Link to="/challenge-1">
