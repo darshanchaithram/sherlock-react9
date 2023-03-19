@@ -72,8 +72,9 @@ const Home = (props) => {
           <br className="home-text09"></br>
           <br></br>
         </span>
-        <button>
-            I'm Ready
+        <button href="">
+        <Link to="/vicious-7">
+            <span> I'm Ready</span>
             <div id="clip">
                 <div id="leftTop" class="corner"></div>
                 <div id="rightBottom" class="corner"></div>
@@ -82,6 +83,7 @@ const Home = (props) => {
             </div>
             <span id="rightArrow" class="arrow"></span>
             <span id="leftArrow" class="arrow"></span>
+            </Link>
         </button>
       </div>
       <footer className="home-footer">

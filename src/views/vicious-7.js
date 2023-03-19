@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -7,7 +6,6 @@ import FeatureCard1 from '../components/feature-card1'
 import './vicious-7.css'
 
 const Vicious7 = (props) => {
-  window.scrollTo(0, 0);
   return (
     <div className="vicious7-container">
       <Helmet>
@@ -20,20 +18,57 @@ const Vicious7 = (props) => {
       </div>
       <div className="vicious7-features">
         <div className="vicious7-container1">
-          <FeatureCard1 rootClassName="rootClassName"></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName1"></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName2"></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName3"></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName7"></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName6"></FeatureCard1>
-          <Link to="/challenge-1">
-            <FeatureCard1
-              rootClassName="rootClassName5"
-              className="vicious7-component6"
-            ></FeatureCard1>
-          </Link>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/C1.jpg"
+          ></FeatureCard1>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/c2.jpg"
+          ></FeatureCard1>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/C3.jpg"
+          ></FeatureCard1>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/C4.jpg"
+          ></FeatureCard1>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/C5.jpg"
+          ></FeatureCard1>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/C6.jpg"
+          ></FeatureCard1>
+          <div class="card">
+            <div class="content">
+              <div class="back">
+                <div class="back-content">
+                  <strong>"Unveil the hidden!" </strong>
+                </div>
+              </div>
+              <div class="front">
+                
+                <div class="img">
+                  <div class="circle">
+                  </div>
+                  <div class="circle" id="right">
+                  </div>
+                  <div class="circle" id="bottom">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
+      
+      
+
+
     </div>
   )
 }
