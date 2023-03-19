@@ -13,8 +13,8 @@
   transform: scale(1.02);
 }
 .feature-card1-image {
-  width: 400px;
-  height: 400px;
+  width: 70%;
+  height: 70%;
   align-self: center;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
