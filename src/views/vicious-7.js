@@ -7,6 +7,7 @@ import FeatureCard1 from '../components/feature-card1'
 import './vicious-7.css'
 
 const Vicious7 = (props) => {
+  window.scrollTo(0, 0);
   return (
     <div className="vicious7-container">
       <Helmet>

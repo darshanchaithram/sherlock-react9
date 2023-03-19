@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet'
 import './home.css'
 
 const Home = (props) => {
+  window.scrollTo(0, 0);
   return (
     <div className="home-container">
       <Helmet>
@@ -21,7 +22,17 @@ const Home = (props) => {
           />
         </div>
         <div className="home-hero-content">
-          <h1 className="home-text">SHERLOCK</h1>
+          <div class="glitch">
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+        </div>
           <h1 className="home-text01">The Vicious Seven</h1>
         </div>
       </section>

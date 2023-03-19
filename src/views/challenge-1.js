@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import './challenge-1.css'
 
 const Challenge1 = (props) => {
+  window.scrollTo(0, 0);
   return (
     <div className="challenge1-container">
       <Helmet>
