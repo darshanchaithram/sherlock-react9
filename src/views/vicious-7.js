@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -42,6 +43,8 @@ const Vicious7 = (props) => {
             rootClassName="rootClassName"
             image_src="/playground_assets/C6.jpg"
           ></FeatureCard1>
+          
+          <Link to="/challenge-1">
           <div class="card">
             <div class="content">
               <div class="back">
@@ -62,6 +65,8 @@ const Vicious7 = (props) => {
               </div>
             </div>
           </div>
+          </Link>
+
 
         </div>
       </div>
