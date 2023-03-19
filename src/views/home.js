@@ -72,9 +72,17 @@ const Home = (props) => {
           <br className="home-text09"></br>
           <br></br>
         </span>
-        <Link to="/vicious-7" className="home-navlink button">
-          I&apos;m ready to become a part of Vicious7
-        </Link>
+        <button>
+            I'm Ready
+            <div id="clip">
+                <div id="leftTop" class="corner"></div>
+                <div id="rightBottom" class="corner"></div>
+                <div id="rightTop" class="corner"></div>
+                <div id="leftBottom" class="corner"></div>
+            </div>
+            <span id="rightArrow" class="arrow"></span>
+            <span id="leftArrow" class="arrow"></span>
+        </button>
       </div>
       <footer className="home-footer">
         <img
